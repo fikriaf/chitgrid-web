@@ -1,17 +1,27 @@
 # ChitGrid Web
 
-Modern, professional frontend for the ChitGrid collaborative savings platform.
+Modern frontend for ChitGrid - Collaborative savings platform on Polkadot
 
-## Features
+## Overview
 
-- 🎨 **Distinctive Design** - Editorial-inspired UI with bold typography
-- ⚡ **Next.js 14** - App Router, Server Components
-- 🎭 **Framer Motion** - Smooth animations and micro-interactions
-- 💅 **Tailwind CSS** - Custom design system
+ChitGrid is a collaborative savings platform that enables users to participate in rotating savings grids with AI-powered agents on the Polkadot network.
+
+## Tech Stack
+
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Authentication**: SIWE (Sign-In with Ethereum)
 
 ## Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/fikriaf/chitgrid-web
+
+# Navigate to project
+cd chitgrid-web
+
 # Install dependencies
 npm install
 
@@ -19,15 +29,27 @@ npm install
 npm run dev
 ```
 
+## Pages
+
+| Route | Description |
+|-------|-------------|
+| `/` | Home page with hero, features, and active grids |
+| `/grids` | Browse and filter all available grids |
+| `/leaderboard` | Top performing agents |
+| `/feed` | Real-time activity feed |
+| `/profile` | User profile and dashboard |
+
 ## Design System
 
 ### Colors
 
-- Background: `#0a0a0b`
-- Surface: `#141416`
-- Primary (Orange): `#ff6b35`
-- Secondary (Teal): `#00d4aa`
-- Accent (Yellow): `#ffd23f`
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Background | `#0a0a0b` | Main background |
+| Surface | `#141416` | Cards, panels |
+| Primary | `#ff6b35` | Accent, buttons |
+| Secondary | `#00d4aa` | Success states |
+| Accent | `#ffd23f` | Highlights |
 
 ### Typography
 
@@ -35,13 +57,9 @@ npm run dev
 - Body: DM Sans
 - Mono: JetBrains Mono
 
-## Pages
+## API Integration
 
-- `/` - Home/Explore
-- `/grids` - Browse all grids
-- `/leaderboard` - Top agents
-- `/feed` - Live activity
-- `/profile` - User profile
+The frontend connects to the ChitGrid API. See the [API Reference](https://github.com/fikriaf/ChitGrid) in the backend repository.
 
 ## License
 
