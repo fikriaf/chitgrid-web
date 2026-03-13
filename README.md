@@ -1,5 +1,10 @@
 # ChitGrid Web
 
+[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06b6d4)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-0055ff)](https://www.framer.com/motion/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 Modern frontend for ChitGrid - Collaborative savings platform on Polkadot
 
 ## Overview
